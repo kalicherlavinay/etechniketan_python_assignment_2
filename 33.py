@@ -29,8 +29,7 @@ for word in words:
 
 print("Palindrome Count:", count)
 
-# Sample Output:
-# Palindrome Count: 3
+
 
 
 #               Question 35
@@ -50,8 +49,7 @@ for word in words:
 
 print("Required Words:", result)
 
-# Sample Output:
-# Required Words: ['wood', 'would', 'woodchuck', 'Woodcutter', 'wooden', 'wife']
+
 
 
 #               Question 36
@@ -71,12 +69,6 @@ for ch in text:
 
 print("Character Frequency:", count)
 
-# Sample Input:
-# google.com
-
-# Sample Output:
-# Character Frequency:
-# {'g': 2, 'o': 3, 'l': 1, 'e': 1, '.': 1, 'c': 1, 'm': 1}
 
 
 #               Question 37
@@ -94,9 +86,6 @@ products = {
 costliest_product = max(products, key=products.get)
 
 print("Costliest product is:", costliest_product)
-
-# Sample Output:
-# Costliest product is: laptop
 
 
 #               Question 38
@@ -118,9 +107,6 @@ for key in keys_to_remove:
 
 print("Updated Dictionary:", d)
 
-# Sample Output:
-# Updated Dictionary: {'age': 25, 'city': 'New York'}
-
 
 #               Question 39
 # Write a Python program that takes an integer as input and
@@ -138,16 +124,7 @@ while num >= 0:
 
     num -= 1
 
-# Sample Input:
-# 5
 
-# Sample Output:
-# 5
-# 4
-# 3
-# 2
-# 1
-# Blast!
 
 
 #               Question 40
@@ -186,15 +163,6 @@ while True:
         print("Thank You!")
         break
 
-# Sample Output:
-# Welcome to the Grade Checker Program!
-# Enter your marks (0-100): 85
-# Your Grade is A
-# Do you want to check another grade? (yes/no): yes
-# Enter your marks (0-100): 45
-# Your Grade is Fail
-# Do you want to check another grade? (yes/no): no
-# Thank You!
 
 
 #               Question 41
@@ -219,11 +187,7 @@ elif num % 5 == 0:
 else:
     print(num)
 
-# Sample Input:
-# 15
 
-# Sample Output:
-# FizzBuzz
 
 
 #               Question 42
@@ -252,13 +216,6 @@ while attempts < 3:
 if attempts == 3:
     print("Access Denied")
 
-# Sample Output:
-# Enter Password: abc
-# Wrong Password!
-# Enter Password: 123
-# Wrong Password!
-# Enter Password: admin123
-# Access Granted
 
 
 #               Question 43
@@ -295,15 +252,7 @@ while True:
         print("Thanks for playing!")
         break
 
-# Sample Output:
-# Welcome to the Simple Coin Toss Game!
-# Guess 'heads' or 'tails': heads
-# Coin shows: tails
-# Wrong guess!
-# Do you want to play again? (yes/no): yes
-# Guess 'heads' or 'tails': tails
-# Coin shows: tails
-# You guessed it right!
+
 # Do you want to play again? (yes/no): no
 # Thanks for playing!
 
