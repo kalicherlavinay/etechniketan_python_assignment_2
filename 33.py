@@ -1,5 +1,5 @@
 # ==========================================================
-#               PYTHON ASSIGNMENT 3
+#               PYTHON ASSIGNMENT 2
 #               Question 33
 # Find all indexes of 'p' in the given string.
 # ==========================================================
